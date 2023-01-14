@@ -107,7 +107,51 @@ footer {
     justify-content: center
   }
   
-  .facebook-icon, .twitter-icon {
+  .facebook-icon, .twitter-icon, .linkedin-icon {
     margin-right: 0.5rem;
+  }
+  
+
+
+@media only screen and (max-width: 768px) {
+    .row {
+      grid-template-columns: repeat(1, 1fr);
+    }
+
+    section h1 {
+      font-size: 1.5em;
+    }
+
+    .info {
+      padding: 2em;
+    }
+
+    .container {
+        display: block;
+      
+      }
+
+      .left-col, .middle-col, .right-col {
+        width: 100%;
+        text-align: center;
+        padding: 20px 0
+      }
+
+      .right-col p {
+        text-align: center;
+      }
+
+    .footer-links {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .footer-links li {
+      width: 100%;
+    }
+
+    .footer-links a {
+      margin-right: 0;
+    }
   }
   
